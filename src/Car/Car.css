@@ -1,0 +1,30 @@
+.Car{
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Car:hover{
+    border: 1px solid red;
+}
+
+.input{}
+
+.input:active, .input:focus{
+    outline: none;
+}
+
+.input.green{
+    border: solid 2px green;
+}
+
+.input.red{
+    border: solid 2px red;
+}
+
+.input.bold{
+    border: solid 4px green;
+    font-weight: bold;
+}
